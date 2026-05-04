@@ -1,0 +1,11 @@
+C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.Common\bin\Debug\net10.0\Arthentic.Common.deps.json
+C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.Common\bin\Debug\net10.0\Arthentic.Common.dll
+C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.Common\bin\Debug\net10.0\Arthentic.Common.pdb
+C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.Common\obj\Debug\net10.0\Arthentic.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.Common\obj\Debug\net10.0\Arthentic.Common.AssemblyInfoInputs.cache
+C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.Common\obj\Debug\net10.0\Arthentic.Common.AssemblyInfo.cs
+C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.Common\obj\Debug\net10.0\Arthentic.Common.csproj.CoreCompileInputs.cache
+C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.Common\obj\Debug\net10.0\Arthentic.Common.dll
+C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.Common\obj\Debug\net10.0\refint\Arthentic.Common.dll
+C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.Common\obj\Debug\net10.0\Arthentic.Common.pdb
+C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.Common\obj\Debug\net10.0\ref\Arthentic.Common.dll

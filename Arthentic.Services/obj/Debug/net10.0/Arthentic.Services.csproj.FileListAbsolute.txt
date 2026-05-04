@@ -1,0 +1,11 @@
+C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.Services\bin\Debug\net10.0\Arthentic.Services.deps.json
+C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.Services\bin\Debug\net10.0\Arthentic.Services.dll
+C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.Services\bin\Debug\net10.0\Arthentic.Services.pdb
+C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.Services\obj\Debug\net10.0\Arthentic.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.Services\obj\Debug\net10.0\Arthentic.Services.AssemblyInfoInputs.cache
+C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.Services\obj\Debug\net10.0\Arthentic.Services.AssemblyInfo.cs
+C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.Services\obj\Debug\net10.0\Arthentic.Services.csproj.CoreCompileInputs.cache
+C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.Services\obj\Debug\net10.0\Arthentic.Services.dll
+C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.Services\obj\Debug\net10.0\refint\Arthentic.Services.dll
+C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.Services\obj\Debug\net10.0\Arthentic.Services.pdb
+C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.Services\obj\Debug\net10.0\ref\Arthentic.Services.dll
