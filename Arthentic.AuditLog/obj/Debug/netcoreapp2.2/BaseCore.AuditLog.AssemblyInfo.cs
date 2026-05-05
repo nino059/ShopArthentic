@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BaseCore.AuditLog")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+54bdc3d4140547aaf73b547b40d03baeec81cb3b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+12bebc1c5d61a62d2b48a83b9f8eecfed9d750e3")]
 [assembly: System.Reflection.AssemblyProductAttribute("BaseCore.AuditLog")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BaseCore.AuditLog")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
