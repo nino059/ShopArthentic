@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5EA917C3-BD15-4226-B005-233FA4246F07}|Arthentic.APIService\\Arthentic.APIService.csproj|c:\\users\\nguyenphuongtay\\source\\repos\\arthentic\\arthentic.apiservice\\controllers\\paintingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EA917C3-BD15-4226-B005-233FA4246F07}|Arthentic.APIService\\Arthentic.APIService.csproj|solutionrelative:arthentic.apiservice\\controllers\\paintingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7D9F8065-40DD-473A-999C-5874B995A63C}|Arthentic.Repository\\Arthentic.Repository.csproj|c:\\users\\nguyenphuongtay\\source\\repos\\arthentic\\arthentic.repository\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7D9F8065-40DD-473A-999C-5874B995A63C}|Arthentic.Repository\\Arthentic.Repository.csproj|solutionrelative:arthentic.repository\\data\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,14 +27,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SeedData.cs",
-              "DocumentMoniker": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\Arthentic.Repository\\Data\\SeedData.cs",
-              "RelativeDocumentMoniker": "Arthentic.Repository\\Data\\SeedData.cs",
-              "ToolTip": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\Arthentic.Repository\\Data\\SeedData.cs",
-              "RelativeToolTip": "Arthentic.Repository\\Data\\SeedData.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAAAEoAAAABAAAAAAAAAA==",
+              "Title": "PaintingsController.cs",
+              "DocumentMoniker": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\Arthentic.APIService\\Controllers\\PaintingsController.cs",
+              "RelativeDocumentMoniker": "Arthentic.APIService\\Controllers\\PaintingsController.cs",
+              "ToolTip": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\Arthentic.APIService\\Controllers\\PaintingsController.cs",
+              "RelativeToolTip": "Arthentic.APIService\\Controllers\\PaintingsController.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAAAGsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-05T05:58:54.239Z",
+              "WhenOpened": "2026-05-05T06:36:58.42Z",
               "EditorCaption": ""
             },
             {
@@ -40,6 +44,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\Arthentic.Repository\\Data\\SeedData.cs",
+              "RelativeDocumentMoniker": "Arthentic.Repository\\Data\\SeedData.cs",
+              "ToolTip": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\Arthentic.Repository\\Data\\SeedData.cs",
+              "RelativeToolTip": "Arthentic.Repository\\Data\\SeedData.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAAADkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T05:58:54.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\Arthentic.APIService\\Program.cs",
               "RelativeDocumentMoniker": "Arthentic.APIService\\Program.cs",
@@ -47,8 +64,7 @@
               "RelativeToolTip": "Arthentic.APIService\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-05T05:57:48.544Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-05T05:57:48.544Z"
             }
           ]
         }

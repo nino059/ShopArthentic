@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Arthentic.Services")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f2853d78f0377b0c5e636013eb43dd1e99747aa7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9a93b461eb8dfeec959bea6599d6b92be85fe6e5")]
 [assembly: System.Reflection.AssemblyProductAttribute("Arthentic.Services")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Arthentic.Services")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -44,33 +44,36 @@ namespace Arthentic.APIService.Controllers
             var totalItems = await query.CountAsync();
             var totalPages = (int)Math.Ceiling(totalItems / (double)pageSize);
 
+            // Lấy dữ liệu trước
             var paintings = await query
                 .OrderByDescending(p => p.CreatedAt)
                 .Skip((page - 1) * pageSize)
                 .Take(pageSize)
-                .Select(p => new PaintingDto
-                {
-                    Id = p.Id,
-                    Title = p.Title,
-                    Description = p.Description ?? "",
-                    Price = p.Price,
-                    DiscountPrice = p.DiscountPrice,
-                    Width = p.Width,
-                    Height = p.Height,
-                    Medium = p.Medium ?? "",
-                    YearCreated = p.YearCreated,
-                    MainImageUrl = p.MainImageUrl ?? "",
-                    IsAvailable = p.IsAvailable,
-                    IsFeatured = p.IsFeatured,
-                    CreatedAt = p.CreatedAt,
-                    ArtistName = p.Artist != null ? p.Artist.FullName : "Unknown Artist",
-                    CategoryName = p.Category != null ? p.Category.Name : "Uncategorized"
-                })
                 .ToListAsync();
+
+            // Map sang DTO sau (an toàn với EF Core)
+            var result = paintings.Select(p => new PaintingDto
+            {
+                Id = p.Id,
+                Title = p.Title,
+                Description = p.Description ?? "",
+                Price = p.Price,
+                DiscountPrice = p.DiscountPrice,
+                Width = p.Width,
+                Height = p.Height,
+                Medium = p.Medium ?? "",
+                YearCreated = p.YearCreated,
+                MainImageUrl = p.MainImageUrl ?? "",
+                IsAvailable = p.IsAvailable,
+                IsFeatured = p.IsFeatured,
+                CreatedAt = p.CreatedAt,
+                ArtistName = p.Artist?.FullName ?? "Unknown Artist",
+                CategoryName = p.Category?.Name ?? "Uncategorized"
+            }).ToList();
 
             return Ok(new
             {
-                items = paintings,
+                items = result,
                 totalItems,
                 totalPages,
                 currentPage = page,
@@ -86,19 +89,20 @@ namespace Arthentic.APIService.Controllers
                 .Include(p => p.Category)
                 .Where(p => p.IsFeatured && p.IsAvailable && !p.IsDeleted)
                 .Take(8)
-                .Select(p => new PaintingDto
-                {
-                    Id = p.Id,
-                    Title = p.Title,
-                    Price = p.Price,
-                    DiscountPrice = p.DiscountPrice,
-                    MainImageUrl = p.MainImageUrl ?? "",
-                    ArtistName = p.Artist != null ? p.Artist.FullName : "Unknown Artist",
-                    CategoryName = p.Category != null ? p.Category.Name : "Uncategorized"
-                })
                 .ToListAsync();
 
-            return Ok(paintings);
+            var result = paintings.Select(p => new PaintingDto
+            {
+                Id = p.Id,
+                Title = p.Title,
+                Price = p.Price,
+                DiscountPrice = p.DiscountPrice,
+                MainImageUrl = p.MainImageUrl ?? "",
+                ArtistName = p.Artist?.FullName ?? "Unknown Artist",
+                CategoryName = p.Category?.Name ?? "Uncategorized"
+            }).ToList();
+
+            return Ok(result);
         }
     }
 }
