@@ -229,44 +229,6 @@
           }
         }
       }
-    },
-    "/api/Paintings/featured": {
-      "get": {
-        "tags": [
-          "Paintings"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/PaintingDto"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/PaintingDto"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/PaintingDto"
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
     }
   },
   "components": {
@@ -345,71 +307,6 @@
             "nullable": true
           },
           "password": {
-            "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "PaintingDto": {
-        "type": "object",
-        "properties": {
-          "id": {
-            "type": "string",
-            "format": "uuid"
-          },
-          "title": {
-            "type": "string",
-            "nullable": true
-          },
-          "description": {
-            "type": "string",
-            "nullable": true
-          },
-          "price": {
-            "type": "number",
-            "format": "double"
-          },
-          "discountPrice": {
-            "type": "number",
-            "format": "double",
-            "nullable": true
-          },
-          "width": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "height": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "medium": {
-            "type": "string",
-            "nullable": true
-          },
-          "yearCreated": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "mainImageUrl": {
-            "type": "string",
-            "nullable": true
-          },
-          "isAvailable": {
-            "type": "boolean"
-          },
-          "isFeatured": {
-            "type": "boolean"
-          },
-          "createdAt": {
-            "type": "string",
-            "format": "date-time"
-          },
-          "artistName": {
-            "type": "string",
-            "nullable": true
-          },
-          "categoryName": {
             "type": "string",
             "nullable": true
           }

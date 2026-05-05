@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Arthentic.APIService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9a93b461eb8dfeec959bea6599d6b92be85fe6e5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8442ff9fed0732f79aa72605877b4e0e0b669a69")]
 [assembly: System.Reflection.AssemblyProductAttribute("Arthentic.APIService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Arthentic.APIService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

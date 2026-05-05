@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5EA917C3-BD15-4226-B005-233FA4246F07}|Arthentic.APIService\\Arthentic.APIService.csproj|c:\\users\\nguyenphuongtay\\source\\repos\\arthentic\\arthentic.apiservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5EA917C3-BD15-4226-B005-233FA4246F07}|Arthentic.APIService\\Arthentic.APIService.csproj|solutionrelative:arthentic.apiservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5EA917C3-BD15-4226-B005-233FA4246F07}|Arthentic.APIService\\Arthentic.APIService.csproj|c:\\users\\nguyenphuongtay\\source\\repos\\arthentic\\arthentic.apiservice\\controllers\\paintingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5EA917C3-BD15-4226-B005-233FA4246F07}|Arthentic.APIService\\Arthentic.APIService.csproj|solutionrelative:arthentic.apiservice\\controllers\\paintingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,14 +31,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PaintingsController.cs",
-              "DocumentMoniker": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\Arthentic.APIService\\Controllers\\PaintingsController.cs",
-              "RelativeDocumentMoniker": "Arthentic.APIService\\Controllers\\PaintingsController.cs",
-              "ToolTip": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\Arthentic.APIService\\Controllers\\PaintingsController.cs",
-              "RelativeToolTip": "Arthentic.APIService\\Controllers\\PaintingsController.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAAAGsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-05T06:36:58.42Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\Arthentic.APIService\\appsettings.json",
+              "RelativeDocumentMoniker": "Arthentic.APIService\\appsettings.json",
+              "ToolTip": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\Arthentic.APIService\\appsettings.json",
+              "RelativeToolTip": "Arthentic.APIService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-05T06:50:34.145Z",
               "EditorCaption": ""
             },
             {
@@ -44,6 +48,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "PaintingsController.cs",
+              "DocumentMoniker": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\Arthentic.APIService\\Controllers\\PaintingsController.cs",
+              "RelativeDocumentMoniker": "Arthentic.APIService\\Controllers\\PaintingsController.cs",
+              "ToolTip": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\Arthentic.APIService\\Controllers\\PaintingsController.cs",
+              "RelativeToolTip": "Arthentic.APIService\\Controllers\\PaintingsController.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAcwFgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T06:36:58.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "SeedData.cs",
               "DocumentMoniker": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\Arthentic.Repository\\Data\\SeedData.cs",
               "RelativeDocumentMoniker": "Arthentic.Repository\\Data\\SeedData.cs",
@@ -51,12 +68,11 @@
               "RelativeToolTip": "Arthentic.Repository\\Data\\SeedData.cs",
               "ViewState": "AgIAADUAAAAAAAAAAAAAADkAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-05T05:58:54.239Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-05T05:58:54.239Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\Arthentic.APIService\\Program.cs",
               "RelativeDocumentMoniker": "Arthentic.APIService\\Program.cs",
