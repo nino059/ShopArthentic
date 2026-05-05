@@ -5,6 +5,7 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using Arthentic.Repository.Data;
 using Arthentic.Entities;
+using Arthentic.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -78,9 +79,7 @@ var app = builder.Build();
 
 // Đăng ký DbContext
 builder.Services.AddDbContext<ArthenticDbContext>(options =>
-    options.UseMySql(builder.Configuration.GetConnectionString("DefaultConnection"),
-        ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("DefaultConnection"))));
-
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 // Đăng ký Generic Repository
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 

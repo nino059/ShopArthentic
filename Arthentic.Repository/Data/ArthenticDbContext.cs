@@ -23,10 +23,22 @@ namespace Arthentic.Repository.Data
         {
             base.OnModelCreating(modelBuilder);
 
-            // Auto generate OrderCode
+            // Cấu hình một số relationship
+            modelBuilder.Entity<Painting>()
+                .HasOne(p => p.Artist)
+                .WithMany(a => a.Paintings)
+                .HasForeignKey(p => p.ArtistId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder.Entity<Painting>()
+                .HasOne(p => p.Category)
+                .WithMany(c => c.Paintings)
+                .HasForeignKey(p => p.CategoryId);
+
             modelBuilder.Entity<Order>()
-                .Property(o => o.OrderCode)
-                .HasDefaultValueSql("CONCAT('ORD', DATE_FORMAT(NOW(), '%Y%m%d'), LPAD(FLOOR(RAND()*10000), 4, '0'))");
+                .HasOne(o => o.User)
+                .WithMany(u => u.Orders)
+                .HasForeignKey(o => o.UserId);
         }
     }
 }
