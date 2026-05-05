@@ -1,0 +1,24 @@
+# ==================== .NET / Visual Studio ====================
+bin/
+obj/
+Debug/
+Release/
+.vs/
+*.user
+*.suo
+*.sln.user
+
+# ==================== Frontend (React + Vite) ====================
+node_modules/
+dist/
+build/
+*.log
+.env
+.env.local
+.env.*.local
+
+# ==================== Other ====================
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
