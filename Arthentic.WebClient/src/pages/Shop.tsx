@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { paintingService } from '../services/paintingService';
-import type { Painting } from '../types/Painting';   // Nếu chưa có types thì tạo sau
+import type { Painting } from '../types/painting';   // Nếu chưa có types thì tạo sau
 
 const Shop = () => {
   const [paintings, setPaintings] = useState<Painting[]>([]);
