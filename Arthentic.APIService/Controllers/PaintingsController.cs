@@ -91,6 +91,7 @@ namespace Arthentic.APIService.Controllers
                     Id = p.Id,
                     Title = p.Title,
                     Price = p.Price,
+                    DiscountPrice = p.DiscountPrice,
                     MainImageUrl = p.MainImageUrl ?? "",
                     ArtistName = p.Artist != null ? p.Artist.FullName : "Unknown Artist",
                     CategoryName = p.Category != null ? p.Category.Name : "Uncategorized"
