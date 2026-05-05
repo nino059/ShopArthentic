@@ -10,6 +10,9 @@ namespace Arthentic.Entities
         [Column(TypeName = "decimal(18,2)")]
         public decimal Price { get; set; }
 
+        [Column(TypeName = "decimal(18,2)")]
+        public decimal? DiscountPrice { get; set; }
+
         public int Width { get; set; }      // cm
         public int Height { get; set; }     // cm
         public string? Medium { get; set; } // Chất liệu (Dầu, Acrylic, Watercolor...)
@@ -29,5 +32,6 @@ namespace Arthentic.Entities
         public virtual ICollection<PaintingImage> Images { get; set; } = new List<PaintingImage>();
         public virtual ICollection<OrderDetail> OrderDetails { get; set; } = new List<OrderDetail>();
         public virtual ICollection<Review> Reviews { get; set; } = new List<Review>();
+
     }
 }

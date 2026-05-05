@@ -18,17 +18,13 @@ builder.Services.AddDbContext<ArthenticDbContext>(options =>
 // ======================
 // 2. Identity
 // ======================
-// ======================
-// Identity Configuration (Mật khẩu đơn giản cho dev)
-// ======================
 builder.Services.AddIdentity<User, IdentityRole<Guid>>(options =>
 {
-    // Tắt tất cả yêu cầu phức tạp về mật khẩu
     options.Password.RequireDigit = false;
     options.Password.RequireLowercase = false;
     options.Password.RequireUppercase = false;
     options.Password.RequireNonAlphanumeric = false;
-    options.Password.RequiredLength = 6;           // Chỉ cần tối thiểu 6 ký tự
+    options.Password.RequiredLength = 6;
     options.Password.RequiredUniqueChars = 1;
 })
 .AddEntityFrameworkStores<ArthenticDbContext>()
@@ -57,18 +53,23 @@ builder.Services.AddAuthentication(options =>
 });
 
 // ======================
-// 4. CORS (cho Frontend React)
+// 4. CORS
 // ======================
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowFrontend", policy =>
     {
-        policy.WithOrigins("http://localhost:5173")
+        policy.WithOrigins("http://localhost:5173", "http://localhost:3000")
               .AllowAnyHeader()
               .AllowAnyMethod()
               .AllowCredentials();
     });
 });
+
+// ======================
+// 5. Các service khác
+// ======================
+builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
@@ -76,26 +77,38 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-
-// Đăng ký DbContext
-builder.Services.AddDbContext<ArthenticDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-// Đăng ký Generic Repository
-builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
-
 // ======================
 // Middleware
 // ======================
-app.UseSwagger();
-app.UseSwaggerUI();
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
 
 app.UseHttpsRedirection();
-
-app.UseCors("AllowFrontend");         
+app.UseCors("AllowFrontend");
 
 app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
+
+// ======================
+// Seed Data
+// ======================
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+    try
+    {
+        await SeedData.Initialize(services);
+        Console.WriteLine("✅ Seed Data completed successfully!");
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine($"❌ Seed Data error: {ex.Message}");
+    }
+}
 
 app.Run();

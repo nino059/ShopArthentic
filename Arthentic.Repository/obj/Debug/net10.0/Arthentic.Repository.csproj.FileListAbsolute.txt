@@ -1,3 +1,9 @@
+C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.Repository\obj\Debug\net10.0\Arthentic.Repository.csproj.AssemblyReference.cache
+C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.Repository\obj\Debug\net10.0\Arthentic.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.Repository\obj\Debug\net10.0\Arthentic.Repository.AssemblyInfoInputs.cache
+C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.Repository\obj\Debug\net10.0\Arthentic.Repository.AssemblyInfo.cs
+C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.Repository\obj\Debug\net10.0\Arthentic.Repository.csproj.CoreCompileInputs.cache
+C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.Repository\obj\Debug\net10.0\Arthentic.Repository.sourcelink.json
 C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.Repository\bin\Debug\net10.0\Arthentic.Repository.deps.json
 C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.Repository\bin\Debug\net10.0\Arthentic.Repository.runtimeconfig.json
 C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.Repository\bin\Debug\net10.0\Arthentic.Repository.dll
@@ -8,12 +14,6 @@ C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.Repository\bin\Debug\n
 C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.Repository\bin\Debug\net10.0\Arthentic.Common.pdb
 C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.Repository\bin\Debug\net10.0\Arthentic.DTO.pdb
 C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.Repository\bin\Debug\net10.0\Arthentic.Entities.pdb
-C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.Repository\obj\Debug\net10.0\Arthentic.Repository.csproj.AssemblyReference.cache
-C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.Repository\obj\Debug\net10.0\Arthentic.Repository.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.Repository\obj\Debug\net10.0\Arthentic.Repository.AssemblyInfoInputs.cache
-C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.Repository\obj\Debug\net10.0\Arthentic.Repository.AssemblyInfo.cs
-C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.Repository\obj\Debug\net10.0\Arthentic.Repository.csproj.CoreCompileInputs.cache
-C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.Repository\obj\Debug\net10.0\Arthentic.Repository.sourcelink.json
 C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.Repository\obj\Debug\net10.0\Arthenti.F708B0E4.Up2Date
 C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.Repository\obj\Debug\net10.0\Arthentic.Repository.dll
 C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.Repository\obj\Debug\net10.0\refint\Arthentic.Repository.dll

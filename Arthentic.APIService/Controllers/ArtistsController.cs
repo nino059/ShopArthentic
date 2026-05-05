@@ -1,5 +1,6 @@
 ﻿using Arthentic.DTO;
 using Arthentic.Repository.Data;
+using Arthentic.Entities;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 

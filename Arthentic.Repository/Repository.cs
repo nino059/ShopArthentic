@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
+using Arthentic.Repository.Data;
 
 namespace Arthentic.Repository
 {

@@ -11,6 +11,6 @@
         public int Rating { get; set; } // 1 đến 5
         public string Comment { get; set; } = string.Empty;
 
-        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+        public new DateTime CreatedAt { get; set; } = DateTime.UtcNow;
     }
 }

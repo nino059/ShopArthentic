@@ -8,5 +8,6 @@
         public bool IsActive { get; set; } = true;
 
         public virtual ICollection<Painting> Paintings { get; set; } = new List<Painting>();
+        public int DisplayOrder { get; set; } = 0;
     }
 }
