@@ -1,4 +1,5 @@
 export interface Painting {
+  imageUrl: string;
   id: string;
   title: string;
   description: string;

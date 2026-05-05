@@ -26,8 +26,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -36,14 +40,10 @@
               "RelativeDocumentMoniker": "Arthentic.APIService\\appsettings.json",
               "ToolTip": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\Arthentic.APIService\\appsettings.json",
               "RelativeToolTip": "Arthentic.APIService\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-05-05T06:50:34.145Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
@@ -55,8 +55,7 @@
               "RelativeToolTip": "Arthentic.APIService\\Controllers\\PaintingsController.cs",
               "ViewState": "AgIAAEwAAAAAAAAAAAAcwFgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-05T06:36:58.42Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-05T06:36:58.42Z"
             },
             {
               "$type": "Document",
