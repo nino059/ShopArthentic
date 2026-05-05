@@ -1,46 +1,112 @@
 import { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 import { paintingService } from '../services/paintingService';
-import type { Painting } from '../types/Painting'; 
+import type { Painting } from '../types/painting';
 
 const ProductDetail = () => {
   const { id } = useParams<{ id: string }>();
+  const navigate = useNavigate();
   const [painting, setPainting] = useState<Painting | null>(null);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string>('');
 
   useEffect(() => {
     if (!id) return;
+
     const fetchDetail = async () => {
       try {
+        setLoading(true);
         const data = await paintingService.getById(id);
         setPainting(data);
-      } catch (error) {
-        console.error(error);
+      } catch (err: unknown) {
+        console.error(err);
+        setError('Không tìm thấy tranh hoặc lỗi kết nối server');
       } finally {
         setLoading(false);
       }
     };
+
     fetchDetail();
   }, [id]);
 
-  if (loading) return <div className="container py-5">Đang tải...</div>;
-  if (!painting) return <div className="container py-5">Không tìm thấy tranh</div>;
+  if (loading) return <div className="text-center py-20">Đang tải chi tiết tranh...</div>;
+  if (error || !painting) return <div className="text-center py-20 text-red-500">{error || 'Không tìm thấy tranh'}</div>;
 
   return (
-    <div className="container py-5">
-      <div className="row">
-        <div className="col-lg-6">
+    <div className="max-w-6xl mx-auto px-4 py-10">
+      <button 
+        onClick={() => navigate(-1)}
+        className="mb-6 text-blue-600 hover:text-blue-800 flex items-center gap-2"
+      >
+        ← Quay lại
+      </button>
+
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
+        {/* Hình ảnh */}
+        <div>
           <img 
-            src={painting.imageUrl || 'https://picsum.photos/id/1015/800/800'} 
-            className="img-fluid rounded-3 shadow" 
+            src={painting.mainImageUrl} 
             alt={painting.title}
+            className="w-full rounded-3xl shadow-xl"
           />
         </div>
-        <div className="col-lg-6">
-          <h1 className="fw-bold">{painting.title}</h1>
-          <p className="text-muted fs-5">{painting.artistName}</p>
-          <h3 className="text-primary fw-bold">{painting.price.toLocaleString('vi-VN')} ₫</h3>
-          <button className="btn btn-dark btn-lg px-5 mt-4">Thêm vào giỏ hàng</button>
+
+        {/* Thông tin chi tiết */}
+        <div className="space-y-6">
+          <h1 className="text-4xl font-bold">{painting.title}</h1>
+          <p className="text-lg text-gray-600">{painting.artistName}</p>
+
+          <div className="flex items-baseline gap-3">
+            {painting.discountPrice ? (
+              <>
+                <span className="text-5xl font-bold text-red-600">
+                  {painting.discountPrice.toLocaleString('vi-VN')} ₫
+                </span>
+                <span className="text-2xl line-through text-gray-400">
+                  {painting.price.toLocaleString('vi-VN')} ₫
+                </span>
+              </>
+            ) : (
+              <span className="text-5xl font-bold">
+                {painting.price.toLocaleString('vi-VN')} ₫
+              </span>
+            )}
+          </div>
+
+          <div className="border-t border-b py-6 text-gray-700 leading-relaxed">
+            {painting.description}
+          </div>
+
+          <div className="grid grid-cols-2 gap-4 text-sm">
+            <div>
+              <span className="font-medium">Kích thước:</span> {painting.width} × {painting.height} cm
+            </div>
+            <div>
+              <span className="font-medium">Chất liệu:</span> {painting.medium}
+            </div>
+            <div>
+              <span className="font-medium">Năm sáng tác:</span> {painting.yearCreated}
+            </div>
+            <div>
+              <span className="font-medium">Tình trạng:</span> {painting.isAvailable ? 'Còn hàng' : 'Hết hàng'}
+            </div>
+          </div>
+
+          <div className="flex gap-4 mt-8">
+            <button 
+              className="flex-1 bg-black text-white py-4 rounded-2xl text-lg font-medium hover:bg-gray-800 transition"
+              onClick={() => alert('Đã thêm vào giỏ hàng! (Chức năng giỏ hàng sẽ làm sau)')}
+            >
+              Thêm vào giỏ hàng
+            </button>
+            
+            <button 
+              className="flex-1 bg-red-600 text-white py-4 rounded-2xl text-lg font-medium hover:bg-red-700 transition"
+              onClick={() => alert('Chuyển sang trang thanh toán (sẽ làm sau)')}
+            >
+              Đặt hàng ngay
+            </button>
+          </div>
         </div>
       </div>
     </div>

@@ -16,6 +16,7 @@ namespace Arthentic.APIService.Controllers
             _context = context;
         }
 
+        // Lấy danh sách tranh (giữ nguyên code cũ của bạn)
         [HttpGet]
         public async Task<ActionResult<object>> GetPaintings(
             string? search = null,
@@ -83,6 +84,48 @@ namespace Arthentic.APIService.Controllers
             catch (Exception ex)
             {
                 return StatusCode(500, new { message = ex.Message, inner = ex.InnerException?.Message });
+            }
+        }
+
+        // ==================== THÊM MỚI ====================
+        // Lấy chi tiết một bức tranh (dùng khi click vào tranh)
+        [HttpGet("{id:guid}")]
+        public async Task<ActionResult<PaintingDto>> GetById(Guid id)
+        {
+            try
+            {
+                var painting = await _context.Paintings
+                    .Include(p => p.Artist)
+                    .Include(p => p.Category)
+                    .FirstOrDefaultAsync(p => p.Id == id && p.IsAvailable && !p.IsDeleted);
+
+                if (painting == null)
+                    return NotFound(new { message = "Không tìm thấy bức tranh" });
+
+                var dto = new PaintingDto
+                {
+                    Id = painting.Id,
+                    Title = painting.Title,
+                    Description = painting.Description ?? "",
+                    Price = painting.Price,
+                    DiscountPrice = painting.DiscountPrice,
+                    Width = painting.Width,
+                    Height = painting.Height,
+                    Medium = painting.Medium ?? "",
+                    YearCreated = painting.YearCreated,
+                    MainImageUrl = painting.MainImageUrl ?? "",
+                    IsAvailable = painting.IsAvailable,
+                    IsFeatured = painting.IsFeatured,
+                    CreatedAt = painting.CreatedAt,
+                    ArtistName = painting.Artist != null ? painting.Artist.FullName : "Unknown Artist",
+                    CategoryName = painting.Category != null ? painting.Category.Name : "Uncategorized"
+                };
+
+                return Ok(dto);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { message = ex.Message });
             }
         }
     }
