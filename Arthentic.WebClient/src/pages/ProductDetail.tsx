@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { paintingService } from '../services/paintingService';
-import type { Painting } from '../types/painting'; 
+import type { Painting } from '../types/Painting'; 
 
 const ProductDetail = () => {
   const { id } = useParams<{ id: string }>();

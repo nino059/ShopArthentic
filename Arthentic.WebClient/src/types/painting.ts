@@ -1,11 +1,16 @@
 export interface Painting {
   id: string;
   title: string;
+  description: string;
   price: number;
-  imageUrl?: string;
-  artistName: string;
+  discountPrice?: number;
+  width: number;
+  height: number;
+  medium: string;
+  yearCreated: number;
+  mainImageUrl: string;
+  isAvailable: boolean;
+  isFeatured: boolean;
+  artistName?: string;
   categoryName?: string;
-  dimensions?: string;
-  medium?: string;
-  isAvailable?: boolean;
 }

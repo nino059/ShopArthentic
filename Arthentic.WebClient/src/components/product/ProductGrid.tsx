@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import ProductCard from './ProductCard';
 import { paintingService } from '../../services/paintingService';
-import type { Painting } from '../../types/painting'; 
+import type { Painting } from '../../types/Painting'; 
 
 const ProductGrid = () => {
   const [paintings, setPaintings] = useState<Painting[]>([]);

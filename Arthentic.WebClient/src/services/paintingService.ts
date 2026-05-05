@@ -1,19 +1,21 @@
-import api from '../lib/axios';
-import type { Painting } from '../types/painting';
+import api from './api';
 
 export const paintingService = {
-  getAll: async (): Promise<Painting[]> => {
-    const response = await api.get('/api/Paintings');
+  // Lấy tất cả tranh (có phân trang)
+  getAll: async (page: number = 1, pageSize: number = 12) => {
+    const response = await api.get(`/api/paintings?page=${page}&pageSize=${pageSize}`);
     return response.data;
   },
 
-  getFeatured: async (): Promise<Painting[]> => {
-    const response = await api.get('/api/Paintings/featured');
+  // Lấy tranh nổi bật
+  getFeatured: async () => {
+    const response = await api.get('/api/paintings/featured');
     return response.data;
   },
 
-  getById: async (id: string): Promise<Painting> => {
-    const response = await api.get(`/api/Paintings/${id}`);
+  // Lấy chi tiết một tranh
+  getById: async (id: string) => {
+    const response = await api.get(`/api/paintings/${id}`);
     return response.data;
-  },
+  }
 };
