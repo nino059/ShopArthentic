@@ -1,4 +1,5 @@
 ﻿using Arthentic.DTO;
+using Arthentic.Entities;
 using Arthentic.Repository.Data;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -68,8 +69,8 @@ namespace Arthentic.APIService.Controllers
                     IsAvailable = p.IsAvailable,
                     IsFeatured = p.IsFeatured,
                     CreatedAt = p.CreatedAt,
-                    ArtistName = p.Artist != null ? p.Artist.FullName : "Unknown Artist",
-                    CategoryName = p.Category != null ? p.Category.Name : "Uncategorized"
+                    ArtistName = p.Artist?.FullName ?? "Unknown Artist",
+                    CategoryName = p.Category?.Name ?? "Uncategorized"
                 }).ToList();
 
                 return Ok(new
@@ -83,50 +84,53 @@ namespace Arthentic.APIService.Controllers
             }
             catch (Exception ex)
             {
-                return StatusCode(500, new { message = ex.Message, inner = ex.InnerException?.Message });
-            }
-        }
-
-        // ==================== THÊM MỚI ====================
-        // Lấy chi tiết một bức tranh (dùng khi click vào tranh)
-        [HttpGet("{id:guid}")]
-        public async Task<ActionResult<PaintingDto>> GetById(Guid id)
-        {
-            try
-            {
-                var painting = await _context.Paintings
-                    .Include(p => p.Artist)
-                    .Include(p => p.Category)
-                    .FirstOrDefaultAsync(p => p.Id == id && p.IsAvailable && !p.IsDeleted);
-
-                if (painting == null)
-                    return NotFound(new { message = "Không tìm thấy bức tranh" });
-
-                var dto = new PaintingDto
-                {
-                    Id = painting.Id,
-                    Title = painting.Title,
-                    Description = painting.Description ?? "",
-                    Price = painting.Price,
-                    DiscountPrice = painting.DiscountPrice,
-                    Width = painting.Width,
-                    Height = painting.Height,
-                    Medium = painting.Medium ?? "",
-                    YearCreated = painting.YearCreated,
-                    MainImageUrl = painting.MainImageUrl ?? "",
-                    IsAvailable = painting.IsAvailable,
-                    IsFeatured = painting.IsFeatured,
-                    CreatedAt = painting.CreatedAt,
-                    ArtistName = painting.Artist != null ? painting.Artist.FullName : "Unknown Artist",
-                    CategoryName = painting.Category != null ? painting.Category.Name : "Uncategorized"
-                };
-
-                return Ok(dto);
-            }
-            catch (Exception ex)
-            {
                 return StatusCode(500, new { message = ex.Message });
             }
         }
-    }
+
+        // ==================== ENDPOINT MỚI: CHI TIẾT TRANH ====================
+        [HttpGet("{id:guid}")]
+        public async Task<ActionResult<object>> GetById(Guid id)
+        {
+            var painting = await _context.Paintings
+                .Include(p => p.Artist)
+                .Include(p => p.Category)
+                .Include(p => p.Images)
+                .Include(p => p.Reviews)
+                    .ThenInclude(r => r.User)
+                .FirstOrDefaultAsync(p => p.Id == id && !p.IsDeleted);
+
+            if (painting == null)
+                return NotFound(new { message = "Không tìm thấy tranh này" });
+
+            var result = new
+            {
+                Id = painting.Id,
+                Title = painting.Title,
+                Description = painting.Description ?? "",
+                Price = painting.Price,
+                DiscountPrice = painting.DiscountPrice,
+                Width = painting.Width,
+                Height = painting.Height,
+                Medium = painting.Medium ?? "",
+                YearCreated = painting.YearCreated,
+                MainImageUrl = painting.MainImageUrl ?? "",
+                IsAvailable = painting.IsAvailable,
+                IsFeatured = painting.IsFeatured,
+                CreatedAt = painting.CreatedAt,
+                ArtistName = painting.Artist?.FullName ?? "Unknown Artist",
+                CategoryName = painting.Category?.Name ?? "Uncategorized",
+                Images = painting.Images?.Select(i => i.ImageUrl).ToList() ?? new List<string>(),
+                // Reviews = painting.Reviews?.Select(r => new
+                // {
+                //     r.User.FullName,
+                //     r.Rating,
+                //     r.Comment,
+                //     r.CreatedAt
+                // }).ToList() ?? new List<object>()
+            };
+
+            return Ok(result);
+        }
+    }       
 }

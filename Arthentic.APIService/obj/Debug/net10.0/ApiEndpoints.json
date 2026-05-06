@@ -127,5 +127,21 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Arthentic.APIService.Controllers.PaintingsController",
+    "Method": "GetById",
+    "RelativePath": "api/Paintings/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

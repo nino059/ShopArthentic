@@ -19,5 +19,7 @@
         // Thông tin rút gọn
         public string ArtistName { get; set; } = string.Empty;
         public string CategoryName { get; set; } = string.Empty;
+     
+       
     }
 }
