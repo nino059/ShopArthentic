@@ -1,14 +1,13 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Options;
 using System;
-using BaseCore.Common;
+using Arthentic.Common;
 using System.Configuration;
-using BaseCore.Libs.Repository;
-using MongoDB.Driver;
+using Arthentic.Libs.Repository;
 using Microsoft.Extensions.DependencyInjection;
-using BaseCore.Repository.Authen;
+using Arthentic.Repository.Authen;
 
-namespace BaseCore.UnitTest
+namespace Arthentic.UnitTest
 {
     public class BaseConfigService
     {

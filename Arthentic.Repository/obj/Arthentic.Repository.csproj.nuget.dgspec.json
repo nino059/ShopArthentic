@@ -30,7 +30,6 @@
         },
         "frameworks": {
           "net10.0": {
-            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {}
           }
@@ -49,7 +48,6 @@
       },
       "frameworks": {
         "net10.0": {
-          "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
             "AutoMapper": {
@@ -58,21 +56,21 @@
             },
             "Microsoft.Bcl.AsyncInterfaces": {
               "target": "Package",
-              "version": "[11.0.0-preview.3.26207.106, )"
+              "version": "[10.0.7, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[11.0.0-preview.3.26207.106, )"
+              "version": "[10.0.7, )"
             },
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
-              "version": "[11.0.0-preview.3.26207.106, )"
+              "version": "[10.0.7, )"
             },
             "Microsoft.Extensions.Logging": {
               "target": "Package",
-              "version": "[11.0.0-preview.3.26207.106, )"
+              "version": "[10.0.7, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -80,7 +78,7 @@
             },
             "System.Text.Json": {
               "target": "Package",
-              "version": "[11.0.0-preview.3.26207.106, )"
+              "version": "[10.0.7, )"
             }
           },
           "imports": [
@@ -403,7 +401,6 @@
         },
         "frameworks": {
           "net10.0": {
-            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {}
           }
@@ -422,30 +419,19 @@
       },
       "frameworks": {
         "net10.0": {
-          "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
-            "AutoMapper": {
-              "target": "Package",
-              "version": "[16.1.1, )"
-            },
             "Microsoft.Bcl.AsyncInterfaces": {
-              "target": "Package",
-              "version": "[11.0.0-preview.3.26207.106, )"
-            },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
               "target": "Package",
               "version": "[10.0.7, )"
             },
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
-              "version": "[11.0.0-preview.3.26207.106, )"
+              "version": "[10.0.7, )"
             },
             "Microsoft.Extensions.Logging": {
               "target": "Package",
-              "version": "[11.0.0-preview.3.26207.106, )"
+              "version": "[10.0.7, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -453,7 +439,7 @@
             },
             "System.Text.Json": {
               "target": "Package",
-              "version": "[11.0.0-preview.3.26207.106, )"
+              "version": "[10.0.7, )"
             }
           },
           "imports": [
@@ -776,7 +762,6 @@
         },
         "frameworks": {
           "net10.0": {
-            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {}
           }
@@ -795,34 +780,31 @@
       },
       "frameworks": {
         "net10.0": {
-          "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
-            "AutoMapper": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[16.1.1, )"
+              "version": "[10.0.7, )"
             },
             "Microsoft.Bcl.AsyncInterfaces": {
-              "target": "Package",
-              "version": "[11.0.0-preview.3.26207.106, )"
-            },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
               "target": "Package",
               "version": "[10.0.7, )"
             },
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
-              "version": "[11.0.0-preview.3.26207.106, )"
+              "version": "[10.0.7, )"
+            },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[10.0.7, )"
             },
             "Microsoft.Extensions.Identity.Stores": {
               "target": "Package",
-              "version": "[11.0.0-preview.3.26207.106, )"
+              "version": "[10.0.7, )"
             },
             "Microsoft.Extensions.Logging": {
               "target": "Package",
-              "version": "[11.0.0-preview.3.26207.106, )"
+              "version": "[10.0.7, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -830,7 +812,7 @@
             },
             "System.Text.Json": {
               "target": "Package",
-              "version": "[11.0.0-preview.3.26207.106, )"
+              "version": "[10.0.7, )"
             }
           },
           "imports": [
@@ -1153,7 +1135,6 @@
         },
         "frameworks": {
           "net10.0": {
-            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
               "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\Arthentic.Common\\Arthentic.Common.csproj": {
@@ -1182,38 +1163,37 @@
       },
       "frameworks": {
         "net10.0": {
-          "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[11.0.0-preview.3.26207.106, )"
+              "version": "[10.0.7, )"
             },
             "Microsoft.Bcl.AsyncInterfaces": {
               "target": "Package",
-              "version": "[11.0.0-preview.3.26207.106, )"
+              "version": "[10.0.7, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[11.0.0-preview.3.26207.106, )"
+              "version": "[10.0.7, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[11.0.0-preview.3.26207.106, )"
+              "version": "[10.0.7, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[11.0.0-preview.3.26207.106, )"
+              "version": "[10.0.7, )"
             },
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
-              "version": "[11.0.0-preview.3.26207.106, )"
+              "version": "[10.0.7, )"
             },
             "Microsoft.Extensions.Logging": {
               "target": "Package",
-              "version": "[11.0.0-preview.3.26207.106, )"
+              "version": "[10.0.7, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -1221,7 +1201,7 @@
             },
             "System.Text.Json": {
               "target": "Package",
-              "version": "[11.0.0-preview.3.26207.106, )"
+              "version": "[10.0.7, )"
             }
           },
           "imports": [

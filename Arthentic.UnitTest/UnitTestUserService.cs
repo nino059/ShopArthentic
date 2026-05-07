@@ -1,12 +1,12 @@
 ﻿using Newtonsoft.Json;
 using NUnit.Framework;
-using BaseCore.Common;
-using BaseCore.Entities;
-using BaseCore.Libs.Repository;
-using BaseCore.Repository.Authen;
+using Arthentic.Common;
+using Arthentic.Entities;
+using Arthentic.Libs.Repository;
+using Arthentic.Repository.Authen;
 using System;
 
-namespace BaseCore.UnitTest
+namespace Arthentic.UnitTest
 {
     public class UnitTestUserService: BaseConfigService
     {

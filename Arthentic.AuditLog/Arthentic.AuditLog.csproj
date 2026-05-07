@@ -21,7 +21,7 @@
 
 
   <ItemGroup>
-    <ProjectReference Include="..\BaseCore.LogService\BaseCore.LogService.csproj" />
+    <ProjectReference Include="..\Arthentic.LogService\Arthentic.LogService.csproj" />
   </ItemGroup>
 
 </Project>
