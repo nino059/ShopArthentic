@@ -10,3 +10,4 @@ C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.Common\obj\Debug\net10
 C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.Common\obj\Debug\net10.0\refint\Arthentic.Common.dll
 C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.Common\obj\Debug\net10.0\Arthentic.Common.pdb
 C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.Common\obj\Debug\net10.0\ref\Arthentic.Common.dll
+C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.Common\obj\Debug\net10.0\Arthentic.Common.csproj.AssemblyReference.cache

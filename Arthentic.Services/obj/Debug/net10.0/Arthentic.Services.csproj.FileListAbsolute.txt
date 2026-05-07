@@ -10,3 +10,4 @@ C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.Services\obj\Debug\net
 C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.Services\obj\Debug\net10.0\refint\Arthentic.Services.dll
 C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.Services\obj\Debug\net10.0\Arthentic.Services.pdb
 C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.Services\obj\Debug\net10.0\ref\Arthentic.Services.dll
+C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.Services\obj\Debug\net10.0\Arthentic.Services.csproj.AssemblyReference.cache

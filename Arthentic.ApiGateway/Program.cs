@@ -38,7 +38,7 @@ await app.UseOcelot();
 
 Console.WriteLine(@"
 ╔══════════════════════════════════════════════════════════════╗
-║              BaseCore API Gateway                            ║
+║              Arthentic API Gateway                           ║
 ║══════════════════════════════════════════════════════════════║
 ║  Gateway:        http://localhost:5000                       ║
 ║  User Service:   http://localhost:5003                       ║

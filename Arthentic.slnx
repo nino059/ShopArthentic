@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="Arthentic.ApiGateway/Arthentic.ApiGateway.csproj" />
   <Project Path="Arthentic.APIService/Arthentic.APIService.csproj" Id="5ea917c3-bd15-4226-b005-233fa4246f07">
     <BuildDependency Project="Arthentic.Common/Arthentic.Common.csproj" />
     <BuildDependency Project="Arthentic.DTO/Arthentic.DTO.csproj" />
@@ -6,6 +7,7 @@
     <BuildDependency Project="Arthentic.Repository/Arthentic.Repository.csproj" />
     <BuildDependency Project="Arthentic.Services/Arthentic.Services.csproj" />
   </Project>
+  <Project Path="Arthentic.AuthService/Arthentic.AuthService.csproj" />
   <Project Path="Arthentic.Common/Arthentic.Common.csproj" Id="7b228b93-f729-4109-b400-ac1159616182" />
   <Project Path="Arthentic.DTO/Arthentic.DTO.csproj" Id="7825807a-961e-4df1-acbd-491b67458f97" />
   <Project Path="Arthentic.Entities/Arthentic.Entities.csproj" Id="572bdbe8-7991-49e9-bdff-987b77b705b4" />

@@ -5,6 +5,14 @@
       {
         "Path": "Arthentic.APIService\\Arthentic.APIService.csproj",
         "Action": "Start"
+      },
+      {
+        "Path": "Arthentic.ApiGateway\\Arthentic.ApiGateway.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Arthentic.AuthService\\Arthentic.AuthService.csproj",
+        "Action": "Start"
       }
     ]
   }

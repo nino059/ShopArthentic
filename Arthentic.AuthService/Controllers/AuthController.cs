@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
-using BaseCore.Common;
-using BaseCore.Services.Authen;
+using Arthentic.Common;
+using Arthentic.Services.Authen;
 using System.Threading.Tasks;
 
-namespace BaseCore.AuthService.Controllers
+namespace Arthentic.AuthService.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -76,7 +76,7 @@ namespace BaseCore.AuthService.Controllers
 
             try
             {
-                var user = new BaseCore.Entities.User
+                var user = new Arthentic.Entities.User
                 {
                     UserName = request.Username,
                     Name = request.Name ?? request.Username,

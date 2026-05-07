@@ -1,8 +1,31 @@
 {
   "version": 2,
-  "dgSpecHash": "ZLUt4xKh5+Q=",
+  "dgSpecHash": "JPfFYwBsZBk=",
   "success": true,
   "projectFilePath": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\Arthentic.Services\\Arthentic.Services.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "expectedPackageFiles": [
+    "C:\\Users\\NguyenPhuongTay\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\10.0.7\\microsoft.bcl.asyncinterfaces.10.0.7.nupkg.sha512",
+    "C:\\Users\\NguyenPhuongTay\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\10.0.7\\microsoft.extensions.dependencyinjection.10.0.7.nupkg.sha512",
+    "C:\\Users\\NguyenPhuongTay\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.7\\microsoft.extensions.dependencyinjection.abstractions.10.0.7.nupkg.sha512",
+    "C:\\Users\\NguyenPhuongTay\\.nuget\\packages\\microsoft.extensions.logging\\10.0.7\\microsoft.extensions.logging.10.0.7.nupkg.sha512",
+    "C:\\Users\\NguyenPhuongTay\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.7\\microsoft.extensions.logging.abstractions.10.0.7.nupkg.sha512",
+    "C:\\Users\\NguyenPhuongTay\\.nuget\\packages\\microsoft.extensions.options\\10.0.7\\microsoft.extensions.options.10.0.7.nupkg.sha512",
+    "C:\\Users\\NguyenPhuongTay\\.nuget\\packages\\microsoft.extensions.primitives\\10.0.7\\microsoft.extensions.primitives.10.0.7.nupkg.sha512",
+    "C:\\Users\\NguyenPhuongTay\\.nuget\\packages\\newtonsoft.json\\13.0.5-beta1\\newtonsoft.json.13.0.5-beta1.nupkg.sha512",
+    "C:\\Users\\NguyenPhuongTay\\.nuget\\packages\\system.text.json\\10.0.7\\system.text.json.10.0.7.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1510",
+      "level": "Warning",
+      "message": "PackageReference System.Text.Json will not be pruned. Consider removing this package from your dependencies, as it is likely unnecessary.",
+      "projectPath": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\Arthentic.Services\\Arthentic.Services.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\Arthentic.Services\\Arthentic.Services.csproj",
+      "libraryId": "System.Text.Json",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
 }

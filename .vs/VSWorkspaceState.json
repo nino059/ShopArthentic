@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Arthentic.APIService",
+    "\\Arthentic.APIService\\Controllers",
     "\\Arthentic.Common"
   ],
-  "SelectedNode": "\\Arthentic.slnx",
   "PreviewInSolutionExplorer": false
 }

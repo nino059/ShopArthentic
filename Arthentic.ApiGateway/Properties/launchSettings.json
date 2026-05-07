@@ -1,6 +1,6 @@
 {
   "profiles": {
-    "BaseCore.ApiGateway": {
+    "Arthentic.ApiGateway": {
       "commandName": "Project",
       "launchBrowser": false,
       "environmentVariables": { "ASPNETCORE_ENVIRONMENT": "Development" },

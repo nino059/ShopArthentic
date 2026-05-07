@@ -10,3 +10,4 @@ C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.DTO\obj\Debug\net10.0\
 C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.DTO\obj\Debug\net10.0\refint\Arthentic.DTO.dll
 C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.DTO\obj\Debug\net10.0\Arthentic.DTO.pdb
 C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.DTO\obj\Debug\net10.0\ref\Arthentic.DTO.dll
+C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.DTO\obj\Debug\net10.0\Arthentic.DTO.csproj.AssemblyReference.cache

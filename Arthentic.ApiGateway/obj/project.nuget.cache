@@ -1,0 +1,70 @@
+{
+  "version": 2,
+  "dgSpecHash": "uMqm33/HFfs=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\Arthentic.ApiGateway\\Arthentic.ApiGateway.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\NguyenPhuongTay\\.nuget\\packages\\automapper\\16.1.1\\automapper.16.1.1.nupkg.sha512",
+    "C:\\Users\\NguyenPhuongTay\\.nuget\\packages\\fluentvalidation\\12.1.1\\fluentvalidation.12.1.1.nupkg.sha512",
+    "C:\\Users\\NguyenPhuongTay\\.nuget\\packages\\ipaddressrange\\6.3.0\\ipaddressrange.6.3.0.nupkg.sha512",
+    "C:\\Users\\NguyenPhuongTay\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\9.0.11\\microsoft.aspnetcore.jsonpatch.9.0.11.nupkg.sha512",
+    "C:\\Users\\NguyenPhuongTay\\.nuget\\packages\\microsoft.aspnetcore.middlewareanalysis\\9.0.11\\microsoft.aspnetcore.middlewareanalysis.9.0.11.nupkg.sha512",
+    "C:\\Users\\NguyenPhuongTay\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\9.0.11\\microsoft.aspnetcore.mvc.newtonsoftjson.9.0.11.nupkg.sha512",
+    "C:\\Users\\NguyenPhuongTay\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\10.0.7\\microsoft.bcl.asyncinterfaces.10.0.7.nupkg.sha512",
+    "C:\\Users\\NguyenPhuongTay\\.nuget\\packages\\microsoft.extensions.apidescription.server\\10.0.0\\microsoft.extensions.apidescription.server.10.0.0.nupkg.sha512",
+    "C:\\Users\\NguyenPhuongTay\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\10.0.7\\microsoft.extensions.dependencyinjection.10.0.7.nupkg.sha512",
+    "C:\\Users\\NguyenPhuongTay\\.nuget\\packages\\microsoft.extensions.diagnosticadapter\\3.1.32\\microsoft.extensions.diagnosticadapter.3.1.32.nupkg.sha512",
+    "C:\\Users\\NguyenPhuongTay\\.nuget\\packages\\microsoft.extensions.logging\\10.0.7\\microsoft.extensions.logging.10.0.7.nupkg.sha512",
+    "C:\\Users\\NguyenPhuongTay\\.nuget\\packages\\microsoft.identitymodel.abstractions\\8.14.0\\microsoft.identitymodel.abstractions.8.14.0.nupkg.sha512",
+    "C:\\Users\\NguyenPhuongTay\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\8.14.0\\microsoft.identitymodel.jsonwebtokens.8.14.0.nupkg.sha512",
+    "C:\\Users\\NguyenPhuongTay\\.nuget\\packages\\microsoft.identitymodel.logging\\8.14.0\\microsoft.identitymodel.logging.8.14.0.nupkg.sha512",
+    "C:\\Users\\NguyenPhuongTay\\.nuget\\packages\\microsoft.identitymodel.tokens\\8.14.0\\microsoft.identitymodel.tokens.8.14.0.nupkg.sha512",
+    "C:\\Users\\NguyenPhuongTay\\.nuget\\packages\\microsoft.openapi\\2.4.1\\microsoft.openapi.2.4.1.nupkg.sha512",
+    "C:\\Users\\NguyenPhuongTay\\.nuget\\packages\\newtonsoft.json\\13.0.5-beta1\\newtonsoft.json.13.0.5-beta1.nupkg.sha512",
+    "C:\\Users\\NguyenPhuongTay\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
+    "C:\\Users\\NguyenPhuongTay\\.nuget\\packages\\ocelot\\24.1.0\\ocelot.24.1.0.nupkg.sha512",
+    "C:\\Users\\NguyenPhuongTay\\.nuget\\packages\\swashbuckle.aspnetcore\\10.1.7\\swashbuckle.aspnetcore.10.1.7.nupkg.sha512",
+    "C:\\Users\\NguyenPhuongTay\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\10.1.7\\swashbuckle.aspnetcore.swagger.10.1.7.nupkg.sha512",
+    "C:\\Users\\NguyenPhuongTay\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\10.1.7\\swashbuckle.aspnetcore.swaggergen.10.1.7.nupkg.sha512",
+    "C:\\Users\\NguyenPhuongTay\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\10.1.7\\swashbuckle.aspnetcore.swaggerui.10.1.7.nupkg.sha512",
+    "C:\\Users\\NguyenPhuongTay\\.nuget\\packages\\system.text.json\\10.0.7\\system.text.json.10.0.7.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1510",
+      "level": "Warning",
+      "message": "PackageReference Microsoft.Extensions.DependencyInjection will not be pruned. Consider removing this package from your dependencies, as it is likely unnecessary.",
+      "projectPath": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\Arthentic.ApiGateway\\Arthentic.ApiGateway.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\Arthentic.ApiGateway\\Arthentic.ApiGateway.csproj",
+      "libraryId": "Microsoft.Extensions.DependencyInjection",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1510",
+      "level": "Warning",
+      "message": "PackageReference Microsoft.Extensions.Logging will not be pruned. Consider removing this package from your dependencies, as it is likely unnecessary.",
+      "projectPath": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\Arthentic.ApiGateway\\Arthentic.ApiGateway.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\Arthentic.ApiGateway\\Arthentic.ApiGateway.csproj",
+      "libraryId": "Microsoft.Extensions.Logging",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1510",
+      "level": "Warning",
+      "message": "PackageReference System.Text.Json will not be pruned. Consider removing this package from your dependencies, as it is likely unnecessary.",
+      "projectPath": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\Arthentic.ApiGateway\\Arthentic.ApiGateway.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\Arthentic.ApiGateway\\Arthentic.ApiGateway.csproj",
+      "libraryId": "System.Text.Json",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}

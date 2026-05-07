@@ -1,6 +1,6 @@
-using BaseCore.Repository;
-using BaseCore.Repository.Authen;
-using BaseCore.Services.Authen;
+using Arthentic.Repository;
+using Arthentic.Repository.Authen;
+using Arthentic.Services.Authen;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
@@ -36,7 +36,7 @@ builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo
     {
-        Title = "BaseCore Auth Service API",
+        Title = "Arthentic Auth Service API",
         Version = "v1",
         Description = "Authentication Microservice - Login, Register, User Management (Bài 10, 11)"
     });
@@ -67,7 +67,7 @@ builder.Services.AddSwaggerGen(c =>
 
 // MongoDB Configuration
 //var mongoConnectionString = builder.Configuration["MongoDB:ConnectionString"] ?? "mongodb://localhost:27017";
-//var mongoDatabaseName = builder.Configuration["MongoDB:Database"] ?? "BaseCoreSales";
+//var mongoDatabaseName = builder.Configuration["MongoDB:Database"] ?? "ArthenticSales";
 //builder.Services.AddSingleton(new MongoDbContext(mongoConnectionString, mongoDatabaseName));
 
 
@@ -123,6 +123,6 @@ app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();
 
-Console.WriteLine("BaseCore Auth Service running on port 5003");
+Console.WriteLine("Arthentic Auth Service running on port 5003");
 Console.WriteLine("Endpoints: /api/auth, /api/users, /api/roles");
 app.Run();

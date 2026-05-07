@@ -1,0 +1,9 @@
+C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.AuthService\obj\Debug\net10.0\Arthentic.AuthService.csproj.AssemblyReference.cache
+C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.AuthService\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.AuthService\obj\Debug\net10.0\Arthentic.AuthService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.AuthService\obj\Debug\net10.0\Arthentic.AuthService.AssemblyInfoInputs.cache
+C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.AuthService\obj\Debug\net10.0\Arthentic.AuthService.AssemblyInfo.cs
+C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.AuthService\obj\Debug\net10.0\Arthentic.AuthService.csproj.CoreCompileInputs.cache
+C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.AuthService\obj\Debug\net10.0\Arthentic.AuthService.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.AuthService\obj\Debug\net10.0\Arthentic.AuthService.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\NguyenPhuongTay\source\repos\Arthentic\Arthentic.AuthService\obj\Debug\net10.0\Arthentic.AuthService.sourcelink.json

@@ -1,12 +1,12 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using BaseCore.Entities;
-using BaseCore.Services.Authen;
+using Arthentic.Entities;
+using Arthentic.Services.Authen;
 using System;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace BaseCore.AuthService.Controllers
+namespace Arthentic.AuthService.Controllers
 {
     [Route("api/users")]
     [ApiController]

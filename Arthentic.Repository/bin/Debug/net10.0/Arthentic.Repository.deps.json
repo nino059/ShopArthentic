@@ -12,9 +12,13 @@
           "Arthentic.DTO": "1.0.0",
           "Arthentic.Entities": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "10.0.7",
+          "Microsoft.Bcl.AsyncInterfaces": "10.0.7",
           "Microsoft.EntityFrameworkCore": "10.0.7",
           "Microsoft.EntityFrameworkCore.SqlServer": "10.0.7",
-          "Microsoft.EntityFrameworkCore.Tools": "10.0.7"
+          "Microsoft.EntityFrameworkCore.Tools": "10.0.7",
+          "Microsoft.Extensions.DependencyInjection": "10.0.7",
+          "Microsoft.Extensions.Logging": "10.0.7",
+          "Newtonsoft.Json": "13.0.5-beta1"
         },
         "runtime": {
           "Arthentic.Repository.dll": {}
@@ -22,7 +26,7 @@
       },
       "Azure.Core/1.47.1": {
         "dependencies": {
-          "Microsoft.Bcl.AsyncInterfaces": "8.0.0",
+          "Microsoft.Bcl.AsyncInterfaces": "10.0.7",
           "System.ClientModel": "1.5.1",
           "System.Memory.Data": "8.0.1"
         },
@@ -85,11 +89,11 @@
           }
         }
       },
-      "Microsoft.Bcl.AsyncInterfaces/8.0.0": {
+      "Microsoft.Bcl.AsyncInterfaces/10.0.7": {
         "runtime": {
           "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.23.53103"
+            "assemblyVersion": "10.0.0.7",
+            "fileVersion": "10.0.726.21808"
           }
         }
       },
@@ -260,7 +264,7 @@
       "Microsoft.CodeAnalysis.Workspaces.Common/4.5.0": {
         "dependencies": {
           "Humanizer.Core": "2.14.1",
-          "Microsoft.Bcl.AsyncInterfaces": "8.0.0",
+          "Microsoft.Bcl.AsyncInterfaces": "10.0.7",
           "Microsoft.CodeAnalysis.Common": "4.5.0",
           "System.Composition": "6.0.0"
         },
@@ -781,6 +785,14 @@
           }
         }
       },
+      "Newtonsoft.Json/13.0.5-beta1": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.5.31230"
+          }
+        }
+      },
       "System.ClientModel/1.5.1": {
         "dependencies": {
           "Microsoft.Extensions.Logging.Abstractions": "10.0.7",
@@ -940,6 +952,12 @@
         }
       },
       "Arthentic.Common/1.0.0": {
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "10.0.7",
+          "Microsoft.Extensions.DependencyInjection": "10.0.7",
+          "Microsoft.Extensions.Logging": "10.0.7",
+          "Newtonsoft.Json": "13.0.5-beta1"
+        },
         "runtime": {
           "Arthentic.Common.dll": {
             "assemblyVersion": "1.0.0.0",
@@ -948,6 +966,12 @@
         }
       },
       "Arthentic.DTO/1.0.0": {
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "10.0.7",
+          "Microsoft.Extensions.DependencyInjection": "10.0.7",
+          "Microsoft.Extensions.Logging": "10.0.7",
+          "Newtonsoft.Json": "13.0.5-beta1"
+        },
         "runtime": {
           "Arthentic.DTO.dll": {
             "assemblyVersion": "1.0.0.0",
@@ -957,8 +981,12 @@
       },
       "Arthentic.Entities/1.0.0": {
         "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "10.0.7",
+          "Microsoft.Extensions.DependencyInjection": "10.0.7",
           "Microsoft.Extensions.Identity.Core": "10.0.7",
-          "Microsoft.Extensions.Identity.Stores": "10.0.7"
+          "Microsoft.Extensions.Identity.Stores": "10.0.7",
+          "Microsoft.Extensions.Logging": "10.0.7",
+          "Newtonsoft.Json": "13.0.5-beta1"
         },
         "runtime": {
           "Arthentic.Entities.dll": {
@@ -1017,12 +1045,12 @@
       "path": "microsoft.aspnetcore.identity.entityframeworkcore/10.0.7",
       "hashPath": "microsoft.aspnetcore.identity.entityframeworkcore.10.0.7.nupkg.sha512"
     },
-    "Microsoft.Bcl.AsyncInterfaces/8.0.0": {
+    "Microsoft.Bcl.AsyncInterfaces/10.0.7": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-3WA9q9yVqJp222P3x1wYIGDAkpjAku0TMUaaQV22g6L67AI0LdOIrVS7Ht2vJfLHGSPVuqN94vIr15qn+HEkHw==",
-      "path": "microsoft.bcl.asyncinterfaces/8.0.0",
-      "hashPath": "microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512"
+      "sha512": "sha512-g0Xp9A+B8jCf5pNIIhFOQXPJkte3D87shfTLY+ylwfSh22U5oQH6tvvmcUuqJvt/wtwKk0WdNp2OGEczHJlJdg==",
+      "path": "microsoft.bcl.asyncinterfaces/10.0.7",
+      "hashPath": "microsoft.bcl.asyncinterfaces.10.0.7.nupkg.sha512"
     },
     "Microsoft.Bcl.Cryptography/9.0.4": {
       "type": "package",
@@ -1303,6 +1331,13 @@
       "sha512": "sha512-KZYeKBET/2Z0gY1WlTAK7+RHTl7GSbtvTLDXEZZojUdAPqpQNDL6tHv7VUpqfX5VEOh+uRGKaZXkuD253nEOBQ==",
       "path": "mono.texttemplating/2.2.1",
       "hashPath": "mono.texttemplating.2.2.1.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.5-beta1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cGxikAY78u8CPfIT7mkICvI2ZNL7oDsC+DzgVWxtU5DmNhF2qDcU3YheDitdO9TKIra6Y5rHRD2T7oEexbAbLA==",
+      "path": "newtonsoft.json/13.0.5-beta1",
+      "hashPath": "newtonsoft.json.13.0.5-beta1.nupkg.sha512"
     },
     "System.ClientModel/1.5.1": {
       "type": "package",

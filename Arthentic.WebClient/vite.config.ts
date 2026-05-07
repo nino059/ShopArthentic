@@ -7,10 +7,10 @@ export default defineConfig({
     port: 5174,
     proxy: {
       '/api': {
-        target: 'http://localhost:7143',     // ← Thay bằng port backend của bạn (Swagger đang chạy port nào?)
+        target: 'http://localhost:5000',
         changeOrigin: true,
         secure: false,
-      }
-    }
-  }
+      },
+    },
+  },
 });

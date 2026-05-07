@@ -1,6 +1,6 @@
 {
   "profiles": {
-    "BaseCore.AuthService": {
+    "Arthentic.AuthService": {
       "commandName": "Project",
       "launchBrowser": false,
       "launchUrl": "swagger",

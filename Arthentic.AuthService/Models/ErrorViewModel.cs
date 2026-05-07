@@ -1,6 +1,6 @@
 using System;
 
-namespace BaseCore.AuthService.Models
+namespace Arthentic.AuthService.Models
 {
     public class ErrorViewModel
     {
