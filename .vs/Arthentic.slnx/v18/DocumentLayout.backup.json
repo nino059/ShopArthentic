@@ -3,8 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7D9F8065-40DD-473A-999C-5874B995A63C}|Arthentic.Repository\\Arthentic.Repository.csproj|c:\\users\\nguyenphuongtay\\source\\repos\\arthentic\\arthentic.repository\\arthentic.repository.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7D9F8065-40DD-473A-999C-5874B995A63C}|Arthentic.Repository\\Arthentic.Repository.csproj|solutionrelative:arthentic.repository\\arthentic.repository.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14C4A801-5ABE-C805-1E65-D6324501EF3A}|Arthentic.ApiGateway\\Arthentic.ApiGateway.csproj|c:\\users\\nguyenphuongtay\\source\\repos\\arthentic\\arthentic.apigateway\\arthentic.apigateway.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{14C4A801-5ABE-C805-1E65-D6324501EF3A}|Arthentic.ApiGateway\\Arthentic.ApiGateway.csproj|solutionrelative:arthentic.apigateway\\arthentic.apigateway.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{572BDBE8-7991-49E9-BDFF-987B77B705B4}|Arthentic.Entities\\Arthentic.Entities.csproj|c:\\users\\nguyenphuongtay\\source\\repos\\arthentic\\arthentic.entities\\arthentic.entities.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{572BDBE8-7991-49E9-BDFF-987B77B705B4}|Arthentic.Entities\\Arthentic.Entities.csproj|solutionrelative:arthentic.entities\\arthentic.entities.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7825807A-961E-4DF1-ACBD-491B67458F97}|Arthentic.DTO\\Arthentic.DTO.csproj|c:\\users\\nguyenphuongtay\\source\\repos\\arthentic\\arthentic.dto\\arthentic.dto.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7825807A-961E-4DF1-ACBD-491B67458F97}|Arthentic.DTO\\Arthentic.DTO.csproj|solutionrelative:arthentic.dto\\arthentic.dto.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B228B93-F729-4109-B400-AC1159616182}|Arthentic.Common\\Arthentic.Common.csproj|c:\\users\\nguyenphuongtay\\source\\repos\\arthentic\\arthentic.common\\arthentic.common.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7B228B93-F729-4109-B400-AC1159616182}|Arthentic.Common\\Arthentic.Common.csproj|solutionrelative:arthentic.common\\arthentic.common.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F48F590F-9F77-312E-F786-C18BC356C7C5}|Arthentic.AuthService\\Arthentic.AuthService.csproj|c:\\users\\nguyenphuongtay\\source\\repos\\arthentic\\arthentic.authservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F48F590F-9F77-312E-F786-C18BC356C7C5}|Arthentic.AuthService\\Arthentic.AuthService.csproj|solutionrelative:arthentic.authservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F48F590F-9F77-312E-F786-C18BC356C7C5}|Arthentic.AuthService\\Arthentic.AuthService.csproj|c:\\users\\nguyenphuongtay\\source\\repos\\arthentic\\arthentic.authservice\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F48F590F-9F77-312E-F786-C18BC356C7C5}|Arthentic.AuthService\\Arthentic.AuthService.csproj|solutionrelative:arthentic.authservice\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F48F590F-9F77-312E-F786-C18BC356C7C5}|Arthentic.AuthService\\Arthentic.AuthService.csproj|c:\\users\\nguyenphuongtay\\source\\repos\\arthentic\\arthentic.authservice\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F48F590F-9F77-312E-F786-C18BC356C7C5}|Arthentic.AuthService\\Arthentic.AuthService.csproj|solutionrelative:arthentic.authservice\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F48F590F-9F77-312E-F786-C18BC356C7C5}|Arthentic.AuthService\\Arthentic.AuthService.csproj|c:\\users\\nguyenphuongtay\\source\\repos\\arthentic\\arthentic.authservice\\arthentic.authservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -17,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F48F590F-9F77-312E-F786-C18BC356C7C5}|Arthentic.AuthService\\Arthentic.AuthService.csproj|c:\\users\\nguyenphuongtay\\source\\repos\\arthentic\\arthentic.authservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{F48F590F-9F77-312E-F786-C18BC356C7C5}|Arthentic.AuthService\\Arthentic.AuthService.csproj|solutionrelative:arthentic.authservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F48F590F-9F77-312E-F786-C18BC356C7C5}|Arthentic.AuthService\\Arthentic.AuthService.csproj|c:\\users\\nguyenphuongtay\\source\\repos\\arthentic\\arthentic.authservice\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F48F590F-9F77-312E-F786-C18BC356C7C5}|Arthentic.AuthService\\Arthentic.AuthService.csproj|solutionrelative:arthentic.authservice\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F48F590F-9F77-312E-F786-C18BC356C7C5}|Arthentic.AuthService\\Arthentic.AuthService.csproj|c:\\users\\nguyenphuongtay\\source\\repos\\arthentic\\arthentic.authservice\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,10 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{14C4A801-5ABE-C805-1E65-D6324501EF3A}|Arthentic.ApiGateway\\Arthentic.ApiGateway.csproj|c:\\users\\nguyenphuongtay\\source\\repos\\arthentic\\arthentic.apigateway\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{14C4A801-5ABE-C805-1E65-D6324501EF3A}|Arthentic.ApiGateway\\Arthentic.ApiGateway.csproj|solutionrelative:arthentic.apigateway\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14C4A801-5ABE-C805-1E65-D6324501EF3A}|Arthentic.ApiGateway\\Arthentic.ApiGateway.csproj|c:\\users\\nguyenphuongtay\\source\\repos\\arthentic\\arthentic.apigateway\\arthentic.apigateway.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{14C4A801-5ABE-C805-1E65-D6324501EF3A}|Arthentic.ApiGateway\\Arthentic.ApiGateway.csproj|solutionrelative:arthentic.apigateway\\arthentic.apigateway.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{14C4A801-5ABE-C805-1E65-D6324501EF3A}|Arthentic.ApiGateway\\Arthentic.ApiGateway.csproj|c:\\users\\nguyenphuongtay\\source\\repos\\arthentic\\arthentic.apigateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -74,11 +94,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Arthentic.Entities",
+              "DocumentMoniker": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\Arthentic.Entities\\Arthentic.Entities.csproj",
+              "RelativeDocumentMoniker": "Arthentic.Entities\\Arthentic.Entities.csproj",
+              "ToolTip": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\Arthentic.Entities\\Arthentic.Entities.csproj",
+              "RelativeToolTip": "Arthentic.Entities\\Arthentic.Entities.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-06T10:29:21.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Arthentic.DTO",
+              "DocumentMoniker": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\Arthentic.DTO\\Arthentic.DTO.csproj",
+              "RelativeDocumentMoniker": "Arthentic.DTO\\Arthentic.DTO.csproj",
+              "ToolTip": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\Arthentic.DTO\\Arthentic.DTO.csproj",
+              "RelativeToolTip": "Arthentic.DTO\\Arthentic.DTO.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-06T10:29:19.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Arthentic.Common",
+              "DocumentMoniker": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\Arthentic.Common\\Arthentic.Common.csproj",
+              "RelativeDocumentMoniker": "Arthentic.Common\\Arthentic.Common.csproj",
+              "ToolTip": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\Arthentic.Common\\Arthentic.Common.csproj",
+              "RelativeToolTip": "Arthentic.Common\\Arthentic.Common.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-06T10:29:07.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Arthentic.ApiGateway",
+              "DocumentMoniker": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\Arthentic.ApiGateway\\Arthentic.ApiGateway.csproj",
+              "RelativeDocumentMoniker": "Arthentic.ApiGateway\\Arthentic.ApiGateway.csproj",
+              "ToolTip": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\Arthentic.ApiGateway\\Arthentic.ApiGateway.csproj",
+              "RelativeToolTip": "Arthentic.ApiGateway\\Arthentic.ApiGateway.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-06T10:01:07.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Arthentic.Repository",
+              "DocumentMoniker": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\Arthentic.Repository\\Arthentic.Repository.csproj",
+              "RelativeDocumentMoniker": "Arthentic.Repository\\Arthentic.Repository.csproj",
+              "ToolTip": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\Arthentic.Repository\\Arthentic.Repository.csproj",
+              "RelativeToolTip": "Arthentic.Repository\\Arthentic.Repository.csproj",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-06T10:27:15.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\Arthentic.AuthService\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Arthentic.AuthService\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\Arthentic.AuthService\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Arthentic.AuthService\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T10:27:27.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Arthentic.AuthService",
               "DocumentMoniker": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\Arthentic.AuthService\\Arthentic.AuthService.csproj",
               "RelativeDocumentMoniker": "Arthentic.AuthService\\Arthentic.AuthService.csproj",
@@ -91,32 +189,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\Arthentic.AuthService\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "Arthentic.AuthService\\Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\Arthentic.AuthService\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "Arthentic.AuthService\\Models\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T10:23:55.907Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\Arthentic.AuthService\\Program.cs",
               "RelativeDocumentMoniker": "Arthentic.AuthService\\Program.cs",
-              "ToolTip": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\Arthentic.AuthService\\Program.cs*",
-              "RelativeToolTip": "Arthentic.AuthService\\Program.cs*",
-              "ViewState": "AgIAADgAAAAAAAAAAAAwwE8AAAApAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\Arthentic.AuthService\\Program.cs",
+              "RelativeToolTip": "Arthentic.AuthService\\Program.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAwwFcAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-06T10:21:34.062Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\Arthentic.AuthService\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Arthentic.AuthService\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\Arthentic.AuthService\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Arthentic.AuthService\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T10:21:00.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\Arthentic.AuthService\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Arthentic.AuthService\\Properties\\launchSettings.json",
@@ -129,7 +227,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "Arthentic.AuthService",
               "DocumentMoniker": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\Arthentic.AuthService\\Arthentic.AuthService.csproj",
               "RelativeDocumentMoniker": "Arthentic.AuthService\\Arthentic.AuthService.csproj",
@@ -142,7 +240,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\Arthentic.AuthService\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Arthentic.AuthService\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\Arthentic.AuthService\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Arthentic.AuthService\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T10:23:55.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\Arthentic.AuthService\\appsettings.json",
               "RelativeDocumentMoniker": "Arthentic.AuthService\\appsettings.json",
@@ -155,20 +266,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\Arthentic.AuthService\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Arthentic.AuthService\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\Arthentic.AuthService\\Controllers\\AuthController.cs*",
-              "RelativeToolTip": "Arthentic.AuthService\\Controllers\\AuthController.cs*",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAgwAwAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T10:21:00.591Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\Arthentic.ApiGateway\\appsettings.json",
               "RelativeDocumentMoniker": "Arthentic.ApiGateway\\appsettings.json",
@@ -181,7 +279,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\Arthentic.ApiGateway\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Arthentic.ApiGateway\\Properties\\launchSettings.json",
@@ -194,20 +292,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Arthentic.ApiGateway",
-              "DocumentMoniker": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\Arthentic.ApiGateway\\Arthentic.ApiGateway.csproj",
-              "RelativeDocumentMoniker": "Arthentic.ApiGateway\\Arthentic.ApiGateway.csproj",
-              "ToolTip": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\Arthentic.ApiGateway\\Arthentic.ApiGateway.csproj",
-              "RelativeToolTip": "Arthentic.ApiGateway\\Arthentic.ApiGateway.csproj",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAIwA4AAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-05-06T10:01:07.617Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\Arthentic.ApiGateway\\Program.cs",
               "RelativeDocumentMoniker": "Arthentic.ApiGateway\\Program.cs",
@@ -220,7 +305,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "ocelot.json",
               "DocumentMoniker": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\Arthentic.ApiGateway\\ocelot.json",
               "RelativeDocumentMoniker": "Arthentic.ApiGateway\\ocelot.json",
@@ -237,7 +322,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\Arthentic.APIService\\appsettings.json",
               "RelativeDocumentMoniker": "Arthentic.APIService\\appsettings.json",
@@ -250,7 +335,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "PaintingsController.cs",
               "DocumentMoniker": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\Arthentic.APIService\\Controllers\\PaintingsController.cs",
               "RelativeDocumentMoniker": "Arthentic.APIService\\Controllers\\PaintingsController.cs",
@@ -263,7 +348,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "SeedData.cs",
               "DocumentMoniker": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\Arthentic.Repository\\Data\\SeedData.cs",
               "RelativeDocumentMoniker": "Arthentic.Repository\\Data\\SeedData.cs",
@@ -276,7 +361,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\Arthentic.APIService\\Program.cs",
               "RelativeDocumentMoniker": "Arthentic.APIService\\Program.cs",

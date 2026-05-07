@@ -1,28 +1,36 @@
 {
   "version": 2,
-  "dgSpecHash": "zH+hCFHrrGc=",
-  "success": true,
+  "dgSpecHash": "wChWZ3QeJcM=",
+  "success": false,
   "projectFilePath": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\Arthentic.Common\\Arthentic.Common.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\NguyenPhuongTay\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\10.0.7\\microsoft.bcl.asyncinterfaces.10.0.7.nupkg.sha512",
-    "C:\\Users\\NguyenPhuongTay\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\10.0.7\\microsoft.extensions.dependencyinjection.10.0.7.nupkg.sha512",
-    "C:\\Users\\NguyenPhuongTay\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.7\\microsoft.extensions.dependencyinjection.abstractions.10.0.7.nupkg.sha512",
-    "C:\\Users\\NguyenPhuongTay\\.nuget\\packages\\microsoft.extensions.logging\\10.0.7\\microsoft.extensions.logging.10.0.7.nupkg.sha512",
-    "C:\\Users\\NguyenPhuongTay\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.7\\microsoft.extensions.logging.abstractions.10.0.7.nupkg.sha512",
-    "C:\\Users\\NguyenPhuongTay\\.nuget\\packages\\microsoft.extensions.options\\10.0.7\\microsoft.extensions.options.10.0.7.nupkg.sha512",
-    "C:\\Users\\NguyenPhuongTay\\.nuget\\packages\\microsoft.extensions.primitives\\10.0.7\\microsoft.extensions.primitives.10.0.7.nupkg.sha512",
+    "C:\\Users\\NguyenPhuongTay\\.nuget\\packages\\automapper\\16.1.1\\automapper.16.1.1.nupkg.sha512",
+    "C:\\Users\\NguyenPhuongTay\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\11.0.0-preview.3.26207.106\\microsoft.bcl.asyncinterfaces.11.0.0-preview.3.26207.106.nupkg.sha512",
+    "C:\\Users\\NguyenPhuongTay\\.nuget\\packages\\microsoft.entityframeworkcore.design\\11.0.0-preview.3.26207.106\\microsoft.entityframeworkcore.design.11.0.0-preview.3.26207.106.nupkg.sha512",
+    "C:\\Users\\NguyenPhuongTay\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\11.0.0-preview.3.26207.106\\microsoft.extensions.dependencyinjection.11.0.0-preview.3.26207.106.nupkg.sha512",
+    "C:\\Users\\NguyenPhuongTay\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\11.0.0-preview.3.26207.106\\microsoft.extensions.dependencyinjection.abstractions.11.0.0-preview.3.26207.106.nupkg.sha512",
+    "C:\\Users\\NguyenPhuongTay\\.nuget\\packages\\microsoft.extensions.logging\\11.0.0-preview.3.26207.106\\microsoft.extensions.logging.11.0.0-preview.3.26207.106.nupkg.sha512",
+    "C:\\Users\\NguyenPhuongTay\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\11.0.0-preview.3.26207.106\\microsoft.extensions.logging.abstractions.11.0.0-preview.3.26207.106.nupkg.sha512",
+    "C:\\Users\\NguyenPhuongTay\\.nuget\\packages\\microsoft.extensions.options\\11.0.0-preview.3.26207.106\\microsoft.extensions.options.11.0.0-preview.3.26207.106.nupkg.sha512",
+    "C:\\Users\\NguyenPhuongTay\\.nuget\\packages\\microsoft.extensions.primitives\\11.0.0-preview.3.26207.106\\microsoft.extensions.primitives.11.0.0-preview.3.26207.106.nupkg.sha512",
+    "C:\\Users\\NguyenPhuongTay\\.nuget\\packages\\microsoft.identitymodel.abstractions\\8.14.0\\microsoft.identitymodel.abstractions.8.14.0.nupkg.sha512",
+    "C:\\Users\\NguyenPhuongTay\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\8.14.0\\microsoft.identitymodel.jsonwebtokens.8.14.0.nupkg.sha512",
+    "C:\\Users\\NguyenPhuongTay\\.nuget\\packages\\microsoft.identitymodel.logging\\8.14.0\\microsoft.identitymodel.logging.8.14.0.nupkg.sha512",
+    "C:\\Users\\NguyenPhuongTay\\.nuget\\packages\\microsoft.identitymodel.tokens\\8.14.0\\microsoft.identitymodel.tokens.8.14.0.nupkg.sha512",
     "C:\\Users\\NguyenPhuongTay\\.nuget\\packages\\newtonsoft.json\\13.0.5-beta1\\newtonsoft.json.13.0.5-beta1.nupkg.sha512",
-    "C:\\Users\\NguyenPhuongTay\\.nuget\\packages\\system.text.json\\10.0.7\\system.text.json.10.0.7.nupkg.sha512"
+    "C:\\Users\\NguyenPhuongTay\\.nuget\\packages\\system.diagnostics.diagnosticsource\\11.0.0-preview.3.26207.106\\system.diagnostics.diagnosticsource.11.0.0-preview.3.26207.106.nupkg.sha512",
+    "C:\\Users\\NguyenPhuongTay\\.nuget\\packages\\system.io.pipelines\\11.0.0-preview.3.26207.106\\system.io.pipelines.11.0.0-preview.3.26207.106.nupkg.sha512",
+    "C:\\Users\\NguyenPhuongTay\\.nuget\\packages\\system.text.encodings.web\\11.0.0-preview.3.26207.106\\system.text.encodings.web.11.0.0-preview.3.26207.106.nupkg.sha512",
+    "C:\\Users\\NguyenPhuongTay\\.nuget\\packages\\system.text.json\\11.0.0-preview.3.26207.106\\system.text.json.11.0.0-preview.3.26207.106.nupkg.sha512"
   ],
   "logs": [
     {
-      "code": "NU1510",
-      "level": "Warning",
-      "message": "PackageReference System.Text.Json will not be pruned. Consider removing this package from your dependencies, as it is likely unnecessary.",
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Microsoft.EntityFrameworkCore.Design 11.0.0-preview.3.26207.106 is not compatible with net10.0 (.NETCoreApp,Version=v10.0). Package Microsoft.EntityFrameworkCore.Design 11.0.0-preview.3.26207.106 supports: net11.0 (.NETCoreApp,Version=v11.0)",
       "projectPath": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\Arthentic.Common\\Arthentic.Common.csproj",
-      "warningLevel": 1,
       "filePath": "C:\\Users\\NguyenPhuongTay\\source\\repos\\Arthentic\\Arthentic.Common\\Arthentic.Common.csproj",
-      "libraryId": "System.Text.Json",
+      "libraryId": "Microsoft.EntityFrameworkCore.Design",
       "targetGraphs": [
         "net10.0"
       ]
